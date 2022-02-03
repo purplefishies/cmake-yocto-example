@@ -17,6 +17,8 @@ target_include_directories(tlib
   PUBLIC $<INSTALL_INTERFACE:include>
 )
 
+add_subdirectory(tmpheader)
+
 install(TARGETS mytest EXPORT mytest DESTINATION bin
   COMPONENT runtime  )
 
