@@ -1,0 +1,1 @@
+# cmake-yocto-example
